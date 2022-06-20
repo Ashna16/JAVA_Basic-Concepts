@@ -1,0 +1,22 @@
+class Program1 
+
+{ public static void main ( String[] args )
+
+  { int no1,no2,add,sub,mul;
+    float div , mod;
+    no1 = 10;
+    no2 = 20;
+    add = no1 + no2;
+    sub = no2 - no1;
+    mul = no1 * no2;
+    div = no1 / no2;
+    mod = no1 % no2 ;
+    System.out.println (" Number 1 is " + no1);
+    System.out.println (" Number 2 is " + no2);
+    System.out.println (" Addition is " + add);
+    System.out.println (" Subtraction is " + sub);
+    System.out.println (" Multiplication is " + mul);
+    System.out.println (" Division is" + div);
+    System.out.println (" Modulus is  " + mod);
+    }
+    }
