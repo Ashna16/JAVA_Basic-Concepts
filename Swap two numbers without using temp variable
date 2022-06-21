@@ -1,0 +1,14 @@
+class Program3
+{ public static void ( String [] args)
+  { int a, b ;
+    a=10;
+    b=5;
+    a= a+b;
+    b= a-b;
+    a= a-b;
+    
+    System.out.println (" a is : " + a);
+    System.out.println (" b is ;" + b);
+    }
+    
+  } 
