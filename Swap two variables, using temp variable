@@ -6,7 +6,7 @@ class Program2
       temp=a;
       a=b;
       b=temp;
-      system.out.println (" a is ;" + a);
-      system.out.println (" b is ;" + b);
+      System.out.println (" a is ;" + a);
+      System.out.println (" b is ;" + b);
       }
   }    
