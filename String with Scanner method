@@ -1,0 +1,13 @@
+import.java.util.Scanner;
+class Program6
+{
+{ public static void main (String[] args)
+  Scanner s1= new Scanner(System.in);
+  String f1,l1;
+  System.out.println("Enter first name");
+  f1=s1.nextLine();
+  System.out.println("Enter last name");
+  l1=s1.nextLine();
+  System.out.println(" Your name is " + f1+l1);
+}
+}
