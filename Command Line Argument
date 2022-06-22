@@ -1,0 +1,21 @@
+------------------------------------- COMMAND LINE ARGUMENT -------------------------
+
+Java command line arguments are arguments that are passed to your program via a terminal or shell command. 
+They make your Java program more configurable by giving users or scripts running your software a way to specify 
+input parameters at run time.
+
+----------------------------------- SYNTAX -----------------------------------------
+
+class Program 
+{
+public static void main (String[] args);
+{
+int n1,n2,total;
+n1=Integer.parseInt(args[0]);
+n2=Integer.parseInt(args[1]);
+total= n1 + n2;
+System.out.println("number 1 is " + n1);
+System.out.println("number 2 is " + n2);
+System.out.println("Total is " + total);
+}
+}
