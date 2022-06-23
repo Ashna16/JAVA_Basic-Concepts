@@ -1,0 +1,16 @@
+class Program10
+{
+public static void main (String[] args);
+{
+int n1,n2;
+n1=Integer.parseInt(args[0]);
+n2=Integer.parseInt(args[1]);
+if (n1>n2)
+{ System.out.println ("n2 is least number");
+}
+else
+{
+System.out.println("n1 is least number");
+}
+}
+}
