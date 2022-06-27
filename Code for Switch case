@@ -1,0 +1,62 @@
+import.java.util.Scanner;
+class Program15
+{ public static void main (String args[])
+  Scanner s1 = new Scanner(System.in);
+  int c,n1,n2,c1,c2,result;
+  n1= Integer.parseInt(args[0]);
+  n2= Integer.parseInt(args[1]);
+  System.out.println("enter c - 1 for addition, 2 for subtraction , 3 for multiplication , 4 for division, 5 and 6 for choice 1 and choice 2");
+  c = s1.nextInt();
+  Switch(c)
+{ Case 1 : System.out.println("addition");
+           result = n1+n2;
+           System.out.println("addition is " +result);
+           break;
+           
+Case 2 : System.out.println("subtraction");
+           result = n1-n2;
+           System.out.println("subtraction is " +result);
+           break;
+Case 3 : System.out.println("multiplication");
+           result = n1*n2;
+           System.out.println("multiplication is " +result);
+           break;
+Case 4 : System.out.println("division");
+           result = n1/n2;
+           System.out.println("division is " +result);
+           break;
+Case 5 : System.out.println("1 for square of n1 and 2 for square of n2");
+           c1=s1.nextInt();
+           Switch(c1);
+           {
+           Case 1 : System.out.println("square");
+           result = n1 * n1;
+           System.out.println("square is " +result);
+           break;
+           Case 2 : System.out.println("square");
+           result = n2 * n2;
+           System.out.println("square is " +result);
+           break;
+           Default: System.out.println("enter your choice");
+           break;
+           }
+Case 6 : System.out.println("1 for cube of n1 and 2 for cube of n2");
+           c2=s1.nextInt();
+           Switch(c2);
+           {
+           Case 1 : System.out.println("cube");
+           result = n1 * n1 * n1;
+           System.out.println("cube is " +result);
+           break;
+           Case 2 : System.out.println("cube");
+           result = n2 * n2 * n2;
+           System.out.println("cube is " +result);
+           break;
+           Default: System.out.println("enter your choice");
+           break;
+           }
+Default : System.out.println(" enter your choice");
+          break;
+          }
+}
+}
