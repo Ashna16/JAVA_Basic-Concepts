@@ -2,6 +2,7 @@ import.java.util.Scanner;
 class Program15
 { public static void main (String args[])
   Scanner s1 = new Scanner(System.in);
+{
   int c,n1,n2,c1,c2,result;
   n1= Integer.parseInt(args[0]);
   n2= Integer.parseInt(args[1]);
@@ -58,5 +59,6 @@ Case 6 : System.out.println("1 for cube of n1 and 2 for cube of n2");
 Default : System.out.println(" enter your choice");
           break;
           }
+}
 }
 }
