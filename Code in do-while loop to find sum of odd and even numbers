@@ -1,0 +1,22 @@
+class program23
+{ public static void main(String args[])
+{ int i,e,o,total;
+  i=1;
+  e=0;
+  o=0;
+  do
+  { 
+  if (i % 2 == 0)
+   { e= i+e;
+   }
+else
+{ o=o+i;
+}
+i = i+1;
+} while (i<=50)
+total = e + o;
+System.out.println(" sum of even numbers is" + e);
+System.out.println("sum of odd numbers id" + o);
+System.out.println("total of odd and even numbers is " + total);
+}
+}
