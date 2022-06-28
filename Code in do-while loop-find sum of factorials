@@ -1,0 +1,16 @@
+class Program25
+{ public static void main(String args[])
+{ int n,a,i,sum;
+i=1;
+a=1;
+sum=0;
+n=Integer.parseInt(args[0]);
+do
+{
+a=a*i;
+i=i+1;
+sum=sum+a;
+} while (i<=n)
+System.out.println("sum of factorial " + sum);
+}
+}
