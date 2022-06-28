@@ -1,0 +1,13 @@
+class Program21
+{ public static void main(String args[])
+{ int i,n;
+i=1;
+n=0;
+while(i<=10)
+{
+n=n+i;
+i=i+1;
+}
+System.out.println("Sum of first 10 numbers is " + n);
+}
+}
