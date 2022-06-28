@@ -1,0 +1,13 @@
+class program26
+{
+public static void main(String args[])
+{ int n, i,mul;
+n=Integer.parseInt(args[0]);
+i=1;
+do 
+{ mul=n*i;
+i=i+1;
+System.out.println(" " + mul);
+} while (i<=n);
+}
+}
