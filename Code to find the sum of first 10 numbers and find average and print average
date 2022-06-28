@@ -1,0 +1,17 @@
+class Program22
+{
+public static void main (String args[])
+{ int i,n,c, avg;
+i=1;
+n=0;
+c=0;
+while ( i<=10)
+{ n= n+i;
+i=i+1;
+c=c+1;
+}
+System.out.println("Sum of numbers is " + n);
+avg=n/c;
+System.out.println("Average of numbers is" + avg);
+}
+}
