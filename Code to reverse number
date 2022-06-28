@@ -1,0 +1,12 @@
+class Program27
+{ public static void main(String args[])
+{ int i,q,r;
+i=Integer.parseInt(args[0]);
+do 
+{ r=i%10;
+ q= i/10;
+ i=q;
+ System.out.println(" " + r);
+ } while (i !=0);
+}
+}
