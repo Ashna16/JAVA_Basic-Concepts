@@ -1,0 +1,15 @@
+class Program27
+{ public static void main(String args[0])
+{ int i,mul,n;
+n=Integer.parseInt(args[0]);
+mul=1;
+i=1;
+while(i<=n)
+{ 
+mul=i*mul;
+sum=1+(i/mul);
+i=i+1;
+}
+System.out.println("sum" + sum);
+}
+}
