@@ -1,0 +1,13 @@
+class Program30
+{ public static void main(String args[0])
+{int x,n,sum,i;
+x=Integer.parseInt(args[0]);
+n=Integer.parseInt(args[1]);
+sum=0;
+while(i<=n)
+{ sum= sum + ((x-i) * (x-i));
+ i=i+1;
+}
+System.out.println("sum" + sum);
+}
+}
