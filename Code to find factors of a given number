@@ -1,0 +1,13 @@
+class Program33
+{ public static void main(String args[0])
+{ int i,n;
+i=1;
+n=Integer.parseInt(args[0]);
+while(i<=n)
+{ if(n%i = =0)
+{ System.out.println(" " +i);
+}
+i=i+1;
+}
+}
+}
