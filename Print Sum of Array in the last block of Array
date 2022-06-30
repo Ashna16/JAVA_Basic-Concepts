@@ -1,0 +1,21 @@
+import.java.util.Scanner;
+class Program37
+{ 
+public static void main (String args[0])
+{
+Scanner s1 = newScanner(System.in);
+int i, sum=0;
+int[] no1 = new int[6];
+for (i=0;i<=6;i=i+1)
+{
+System.out.println(" Enter number1");
+no1[i]= s1.nextInt();
+sum=sum+no1[i];
+}
+for (i=0;i<=5;i=i+1)
+{
+System.out.println(" " , no1[i]);
+}
+System.out.println(" Sum " + sum);
+}
+}
