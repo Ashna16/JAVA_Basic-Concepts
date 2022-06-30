@@ -1,0 +1,40 @@
+import.java.util.Scanner
+class Program36
+{
+Scanner s1=newScanner(System.in);
+int i,avg,even,odd,t1,t2,t3,sum,se,so;
+sum=0;
+t3=0;
+t1=0;
+t2=0;
+so=0;
+se=0;
+int[] no1= new int[5];
+for (i=0;i<=5;i=i+1)
+{
+System.out.println("Enter the number");
+no1[i]=s1.nextInt();
+sum=sum+no1[i];
+t3=t3+1;
+if ( no1[i] % 2 ==0)
+{
+se=se+no1[i];
+t1=t1+1;
+} 
+else
+{
+so=so+no1[i];
+t2=t2+1;
+}
+}
+avg= se/t1;
+System.out.println("Average of even numbers" + avg);
+avg= so/t2;
+System.out.println("Average of odd numbers" + avg);
+avg= sum/t3;
+System.out.println("Average of numbers" + avg);
+}
+}
+
+
+
