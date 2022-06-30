@@ -1,0 +1,22 @@
+class Program35
+{ public static void main(String args[0])
+{
+int i,temp,a,r;
+i=Integer.parseInt(args[0]);
+a=i;
+temp=0;
+while(i<=0)
+{ r= i%10;
+  temp= temp*10+ r ;
+  i= i/10;
+  }
+if ( temp = = a)
+{ 
+System.out.println("Number is Palindrome");
+}
+else
+{
+System.out.println("Number is not Palindrome");
+}
+}
+}
