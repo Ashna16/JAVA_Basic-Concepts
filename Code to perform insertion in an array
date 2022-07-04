@@ -1,0 +1,29 @@
+import java.util.Scanner
+class Program40
+{
+public static void main(String args[])
+{
+Scanner S1= new Scanner(System.in);
+int i,n,l;
+int[] no1 = new int[6];
+for (i=0; i<=6 ; i=i+1)
+{
+System.out.println(" Enter no 1");
+no1[i]=s1.nextInt();
+}
+System.out.println("Enter the position you want to enter the no at");
+n=s1.nextInt();
+System.out.println("enter no. to be inserted");
+l=s1.nextInt();
+for(i=n;i<=6;i=i+1);
+{
+no1[n+1]=no1[n];
+}
+no1[n]=l;
+for(i=0;i<=6;i=i+1)
+{
+System.out.println(" " +no1[i]);
+}
+}
+}
+
