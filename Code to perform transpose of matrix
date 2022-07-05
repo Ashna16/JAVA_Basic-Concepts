@@ -1,0 +1,28 @@
+import.java.util.Scanner
+class Program54
+{
+public static void main (String args[])
+{
+Scanner s1=newScanner(System.in);
+int [][] no1= new int [3][3];
+int r,c;
+for ( r=0 ; r<=2 ; r=r+1)
+{
+for (c=0;c<=2;c=c+1)
+{
+System.out.println("Enter no.");
+no1[r][c]=s1.nextInt();
+}
+}
+for(r=0;r<=2;r=r+1)
+{
+for(c=0;c<=2;c=c+1)
+{
+no1 [r][c]=no1[c][r];
+System.out.print(" " +no1[r][c]);
+}
+System.out.print("\n");
+}
+}
+}
+
