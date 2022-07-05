@@ -1,0 +1,23 @@
+import.java.util.Scanner
+class program45
+{
+public static void main(string args[])
+{
+Scanner s1=new Scanner(System.in);
+int[][] n1=new int[3][3];
+int r, c;
+for(r=0;r<=2;r=r+1)
+{
+for(c=0;c<=2;c=c+1)
+{
+if (r ==c)
+{
+System.out.print(" 1");
+}
+else
+{
+System.out.print("0 ");
+}
+}
+System.out.print("\n");
+}
