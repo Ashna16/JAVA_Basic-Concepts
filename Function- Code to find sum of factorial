@@ -1,0 +1,21 @@
+*** Function- with return type and with argument ***
+
+class Program51
+{
+static int n,sum=0,fact=1,ans;
+public static int fact1(int a)
+{
+n=a;
+for (n=1;n<=a;n=n+1)
+{
+fact= fact*n;
+sum=sum+fact;
+}
+return(sum);
+}
+public static void main (String args[])
+{
+ans=fact(3);
+System.out.println("ans"+ans);
+}
+}
