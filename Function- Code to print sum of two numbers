@@ -1,0 +1,18 @@
+*** Function- with return type and with argument ***
+
+class Program50
+{
+static int n1,n2,sum=0,ans;
+public static int sum1( int a1, int a2)
+{
+n1=a1;
+n2=a2;
+sum=n1+n2;
+return(sum);
+}
+public static void main (String args[])
+{
+ans=sum1(10,20);
+System.out.println(" " + ans);
+}
+}
