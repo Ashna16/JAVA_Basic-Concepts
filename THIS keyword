@@ -1,0 +1,31 @@
+WHEN THE VARIABLE AND ARGUMENT ARE SAME, IN FUNCTION WE CANNOT WRITE IT AS n1=n1 (FOR EXAMPLE)
+SO HERE, COMES THE CONCEPT OF "THIS" KEYWORD.
+WE CAN WRITE IT AS:
+this.n1;
+
+--------------------------------- SYNTAX ------------------------------------------
+class Prog
+{
+int n1,n2,total;
+public void add (int n1,int n2)
+{
+this.n1=n1;
+this.n2=n2;
+total=n1+n2;
+}
+public void show()
+{
+System.out.println(" " +n1);
+System.out.println(" " +n2);
+System.out.println(" " +total);
+}
+}
+class Demo
+{
+public static void main (String args[])
+{
+Prog p1=new Prog();
+p1.add(2,3);
+p1.show();
+}
+}
