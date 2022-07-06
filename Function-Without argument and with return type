@@ -1,0 +1,16 @@
+class Program52
+{
+static int n1,n2,add=0,ans;
+public static void sum()
+{
+n1=5;
+n2=13;
+add=n1+n2;
+return(add);
+}
+public static void main(String args[])
+{
+ans=sum();
+System.out.println("ans" +ans);
+}
+}
