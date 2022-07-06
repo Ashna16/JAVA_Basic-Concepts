@@ -1,0 +1,50 @@
+Java Class
+
+A class is a blueprint for the object. Before we create an object, we first need to define the class.
+
+Create a class in Java
+
+We can create a class in Java using the class keyword. For example,
+
+class ClassName {
+  // fields
+  // methods
+}
+
+Java Objects
+
+An object is called an instance of a class.
+
+Creating an Object in Java
+
+Here is how we can create an object of a class.
+
+className object = new className();
+
+-------------------------------------------- SYNTAX ---------------------------------------------
+class Prog
+{
+int n1,n2,total;
+public void add()
+{
+n1=2;
+n2=10;
+total=n1+n2;
+}
+public void show()
+{
+System.out.println(""+n1);
+System.out.println(""+n2);
+System.out.println(" " +total);
+}
+}
+class Demo
+{
+public static void main (String args[])
+{
+Prog p1=new Prog();
+p1.add();
+p1.show();
+}
+}
+
