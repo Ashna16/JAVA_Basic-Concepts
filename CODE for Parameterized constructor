@@ -1,0 +1,31 @@
+import.java.util.Scanner
+class Program
+{
+int b,p,ans=1;
+Program(int b1,int p1)
+{
+b=b1;
+p=p1;
+}
+public void display()
+{
+for (p=1;p<=p1;p=p+1)
+{
+ans=ans*b;
+System.out.println(" " + ans);
+}
+}
+class Demo
+{
+public static void main(String args[])
+{
+int b1,p1;
+Scanner s1=new Scanner(system.in);
+System.out.println("enter base" +b );
+b1=s1.nextInt();
+System.out.println("enter power" +p);
+p1=s1.nextInt();
+Program P= new Program(b1,p1);
+P.display();
+}
+}
