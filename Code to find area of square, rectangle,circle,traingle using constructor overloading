@@ -1,0 +1,40 @@
+class Program
+{
+int l,b,r,h,ans=1;
+Program(int l)
+{
+this.l=l;
+ans= l*l;
+System.out.println(" Area of square"+ ans);
+}
+Program( int l , int b)
+{
+this.l=l;
+this.b=b;
+ans=l*b;
+System.out.println(" area of rectangle " + ans);
+}
+Program( int b , int h)
+{
+this.h=h;
+this.b=b;
+ans=0.5*h*b;
+System.out.println(" area of triangle" + ans);
+}
+Program( int r)
+{
+this.r=r;
+ans=3.14*r*r;
+System.out.println(" area of cirlce " + ans);
+}
+class Demo
+{
+public static void main(String args[])
+{
+Program p1= newProgram (10);
+Program p2= newProgram (10,20);
+Program p3= newProgram (3,4);
+Program p4= newProgram (3);
+}
+}
+
