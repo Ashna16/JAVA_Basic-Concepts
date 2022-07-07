@@ -1,0 +1,14 @@
+A constructor is called at the time of object creation.
+Constructor name should be same as class name.
+Constructor is called in public area only.
+Constructor has no return type.
+Constructor may or may not be overloaded.
+
+There are two types of constructors in Java:
+
+Default constructor (no-arg constructor).
+Parameterized constructor.
+
+Constructor Overloading: Constructor overloading in Java is a technique of having more than one constructor with different parameter lists. 
+They are arranged in a way that each constructor performs a different task. 
+They are differentiated by the compiler by the number of parameters in the list and their types.
