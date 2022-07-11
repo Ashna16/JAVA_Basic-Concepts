@@ -1,0 +1,72 @@
+import java.util.Scanner
+class Demo
+{
+Scanner s1=new Scanner (System.in);
+private int e_id,sal;
+private float bonus;
+private string e_name,e_desig;
+
+public void setname(String e_name)
+{
+this.e_name;
+}
+public void setid(int e_id)
+{
+this.e_id;
+}
+public void setdesig(String e_desig)
+{
+this.e_desig;
+}
+public int getid()
+{
+return e_id;
+}
+public String getname()
+{
+return e_name;
+}
+public String getdesig()
+{
+return e_desig;
+}
+public int getsal()
+{
+
+System.out.println("Enter the salary");
+sal= s1.nextInt();
+if (sal >= 10000)
+{
+System.out.println(" Bonus is 10%")
+bonus = (10/100) * sal;
+sal= sal + bonus;
+return sal;
+}
+else if ( sal >=5000)
+{
+System.out.println(" Bonus is 5%")
+bonus = (5/100) * sal;
+sal= sal + bonus;
+return sal;
+}
+else
+{
+System.out.println(" No bonus");
+return sal;
+}
+
+class Encapsulation
+{
+public static void main(String args[])
+{
+Demo d1 = new Demo();
+d1.setid(10);
+d1.setname(" ABC");
+d1.setdesig(" CSE");
+System.out.println(" " +d1.getid());
+System.out.println(" " +d1.getname());
+System.out.println(" " +d1.getid());
+System.out.println(" " +d1.getsal());
+}
+}
+
