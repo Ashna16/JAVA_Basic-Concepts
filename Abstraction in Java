@@ -1,0 +1,59 @@
+Abstraction aims to hide complexity from users and show them only relevant information.
+For example, if you’re driving a car, you don’t need to know about its internal workings.
+
+The same is true of Java classes. You can hide internal implementation details using abstract classes or interfaces.
+On the abstract level, you only need to define the method signatures (name and parameter list) 
+and let each class implement them in their own way.
+
+Abstraction in Java:
+
+Hides the underlying complexity of data
+Helps avoid repetitive code
+Presents only the signature of internal functionality
+Gives flexibility to programmers to change the implementation of abstract behavior
+Partial abstraction (0-100%) can be achieved with abstract classes
+Total abstraction (100%) can be achieved with interfaces
+
+
+abstract  class  Animal 
+{
+
+abstract  void  move();
+abstract  void  eat();
+
+void  label()  {
+System.out.println("Animal's data:");
+}
+}
+class  Bird  extends Animal {
+void  move()  {
+System.out.println("Moves by flying.");
+}
+void  eat()  {
+System.out.println("Eats birdfood.");
+}
+}
+class  Fish  extends Animal {
+void  move()  {
+System.out.println("Moves by swimming.");
+}
+void  eat()  {
+System.out.println("Eats seafood.");
+}
+}
+class  TestBird  {
+public  static  void  main(String[] args)  {
+Animal myBird =  new Bird();
+myBird.label();
+myBird.move();
+myBird.eat();
+}
+}
+class  TestFish  {
+public  static  void  main(String[] args)  {
+Animal myFish =  new Fish();
+myFish.label();
+myFish.move();
+myFish.eat();
+}
+}
