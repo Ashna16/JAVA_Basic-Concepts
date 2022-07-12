@@ -15,7 +15,7 @@ POLYMORPHISM-Polymorphism means "many forms", and it occurs when we have many cl
 
 INHERITANCE- Here,one object acquires the properties and behaviour of the parent object. It is used for code re-usability.
 
-![OOP in Java](https://2.bp.blogspot.com/-jLA3H9BqiG0/Wt9uP93TxiI/AAAAAAAAARU/8bvtk5UC4rA61Aj3NtBNd9b0ZQpt4sk-gCLcBGAs/s1600/oops-concept-basic-cpp.png![image](https://user-images.githubusercontent.com/72863776/178582976-a309f5ab-c7c6-45de-8202-c9479098ea2c.png))
+![image](https://user-images.githubusercontent.com/72863776/178583179-f6ee13fa-905d-422d-a0f4-b384ed024691.png)
 
 
 
