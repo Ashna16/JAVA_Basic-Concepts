@@ -1,0 +1,21 @@
+import.java.util.*
+class ArrayList_Prog
+{
+public static void main(String args[])
+{
+System.out.println(" Program for array list");
+ArrayList obj = new ArrayList();
+System.out.println(" Inserting Element");
+obj.add(30);
+obj.add(40);
+obj.add(50);
+obj.add(60);
+System.out.println("Elements are" +obj);
+System.out.println(" Inserting Element in between");
+obj.add(3,65);
+System.out.println(" Array " + obj);
+System.out.println(" Removing Elements");
+obj.remove(2);
+System.out.println(" Array size" + obj.size());
+}
+}
