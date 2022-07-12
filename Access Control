@@ -1,0 +1,18 @@
+Access control is a mechanism, an attribute of encapsulation which restricts the access of certain members of a class to 
+specific parts of a program. Access to members of a class can be controlled using the access modifiers.
+There are four access modifiers in Java. 
+They are:
+
+public
+protected
+default
+private
+ 
+
+If the member (variable or method) is not marked as either public or protected or private, 
+the access modifier for that member will be default. We can apply access modifiers to classes also.
+
+Among the four access modifiers, private is the most restrictive access modifier and public is the least restrictive access modifier.
+Syntax for declaring a access modifier is shown below:
+
+access-modifier  data-type  variable-name;
