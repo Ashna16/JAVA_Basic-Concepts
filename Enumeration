@@ -1,0 +1,25 @@
+Generates series of elements one at a time. The interface is used to acess the elements defined in some collection like VECTOR OR ARRAY LIST.
+Generally such Collection is of unknown size.
+It uses two methods:
+1. nextElement(): It returns the next object in the list.
+2. hasMoreElements(): If the next element is present in the colection then it returns true otherwise returns false.
+Here traversion has to be sequential.
+
+import java.util.*
+public class EnumerationDemo
+{
+public static void main(String args[])
+{
+Enumeration num;
+Vector Mylist = new Vector();
+Mylist.add("one");
+Mylist.add("two");
+Mylist.add("three");
+Mylist.add("four");
+Mylist.add("five");
+Mylist.add("six");
+num= MyList.elements();
+while(num.hasMoreElements())
+System.out.println(num.nextElement());
+}
+}
